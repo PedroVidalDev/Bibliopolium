@@ -10,6 +10,6 @@ public class Boker {
 
     public static void main(String[] args) {
         Home home = new Home();
-        home.show(true);
+        home.setVisible(true);
     }
 }

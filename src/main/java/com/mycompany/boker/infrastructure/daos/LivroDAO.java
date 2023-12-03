@@ -4,8 +4,6 @@
  */
 package com.mycompany.boker.infrastructure.daos;
 
-import com.mycompany.boker.application.Show;
-import com.mycompany.boker.application.dto.LivroDTO;
 import com.mycompany.boker.infrastructure.ConnectionSQL;
 import com.mycompany.boker.infrastructure.migrations.CreateTableLivros;
 import com.mycompany.boker.infrastructure.entities.Livro;

@@ -6,11 +6,7 @@ package com.mycompany.boker.application;
 
 import com.mycompany.boker.application.dto.LivroDTO;
 import com.mycompany.boker.domain.LivroService;
-import java.sql.PreparedStatement;
-import java.sql.Connection;
-import javax.management.RuntimeErrorException;
-import com.mycompany.boker.infrastructure.ConnectionSQL;
-import com.mycompany.boker.infrastructure.migrations.CreateTableLivros;
+
 /**
  *
  * @author ads2311007
@@ -217,7 +213,7 @@ public class Home extends javax.swing.JFrame {
 
     private void btnEnviar1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEnviar1ActionPerformed
         Consultar consultar = new Consultar();
-        consultar.show();
+        consultar.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_btnEnviar1ActionPerformed
 

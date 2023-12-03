@@ -6,10 +6,6 @@ package com.mycompany.boker.application;
 
 import com.mycompany.boker.application.dto.LivroDTO;
 import com.mycompany.boker.domain.LivroService;
-import com.mycompany.boker.infrastructure.ConnectionSQL;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.Connection;
 
 /**
  *
@@ -114,7 +110,7 @@ public class Consultar extends javax.swing.JFrame {
             LivroDTO dto = service.resgatarLivro(txtISBN.getText());
 
             Show show = new Show();
-            show.show();
+            show.setVisible(true);
             
             show.receiveData(dto);
                         
@@ -127,7 +123,7 @@ public class Consultar extends javax.swing.JFrame {
 
     private void btnEnviar1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEnviar1ActionPerformed
         Home home = new Home();
-        home.show();
+        home.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_btnEnviar1ActionPerformed
 
