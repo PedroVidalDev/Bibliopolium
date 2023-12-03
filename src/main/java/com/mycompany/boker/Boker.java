@@ -4,13 +4,12 @@
 
 package com.mycompany.boker;
 
-/**
- *
- * @author ads2311007
- */
+import com.mycompany.boker.application.Home;
+
 public class Boker {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Home home = new Home();
+        home.show(true);
     }
 }

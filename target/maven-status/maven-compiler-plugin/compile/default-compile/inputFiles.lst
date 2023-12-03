@@ -1,2 +1,10 @@
-C:\Users\ADS2311007\Documents\NetBeansProjects\boker\src\main\java\com\mycompany\boker\Boker.java
-C:\Users\ADS2311007\Documents\NetBeansProjects\boker\src\main\java\View\Home.java
+C:\Users\pedro\BibliopoliumTelas\src\main\java\com\mycompany\boker\application\Consultar.java
+C:\Users\pedro\BibliopoliumTelas\src\main\java\com\mycompany\boker\application\Show.java
+C:\Users\pedro\BibliopoliumTelas\src\main\java\com\mycompany\boker\Boker.java
+C:\Users\pedro\BibliopoliumTelas\src\main\java\com\mycompany\boker\infrastructure\migrations\CreateTableLivros.java
+C:\Users\pedro\BibliopoliumTelas\src\main\java\com\mycompany\boker\domain\LivroService.java
+C:\Users\pedro\BibliopoliumTelas\src\main\java\com\mycompany\boker\application\dto\LivroDTO.java
+C:\Users\pedro\BibliopoliumTelas\src\main\java\com\mycompany\boker\infrastructure\daos\LivroDAO.java
+C:\Users\pedro\BibliopoliumTelas\src\main\java\com\mycompany\boker\infrastructure\entities\Livro.java
+C:\Users\pedro\BibliopoliumTelas\src\main\java\com\mycompany\boker\application\Home.java
+C:\Users\pedro\BibliopoliumTelas\src\main\java\com\mycompany\boker\infrastructure\ConnectionSQL.java
